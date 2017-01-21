@@ -10,6 +10,7 @@ import java.util.List;
 
 import butterknife.BindViews;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,21 +23,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+    }
 
-        // Normal way of setting event listener
-        // Set OnClickListener attaching to all app button.
+    /**
+     * This method is called when any app button is clicked.
+     * Use ButterKnife way to set event listener.
+     *
+     * @param view
+     */
+    @OnClick({R.id.popular_movies, R.id.stock_hawk, R.id.xyz_reader, R.id.best_news, R.id.capstone_design})
+    public void buttonClick(View view) {
         for (int i = 0; i < appButton.size(); i++) {
-            appButton.get(i).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    for (int i = 0; i < appButton.size(); i++) {
-                        if (v.getId() == appButton.get(i).getId()) {
-                            toastShow(getString(R.string.launch_message, ((Button) v).getText()));
-                            break;
-                        }
-                    }
-                }
-            });
+            if (view.getId() == appButton.get(i).getId()) {
+                toastShow(getString(R.string.launch_message, ((Button) view).getText()));
+                break;
+            }
         }
     }
 
