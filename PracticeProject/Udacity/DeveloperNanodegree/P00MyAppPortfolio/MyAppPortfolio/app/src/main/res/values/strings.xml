@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- APP Name [CHAR LIMIT=20] -->
+    <string name="app_name">My App Portfolio</string>
+
+    <!-- Header text of app navigator buttons [CHAR LIMIT=NONE] -->
+    <string name="header_of_app_navigator_buttons">Udacity Nanodegree APP</string>
+
+    <!-- Popular Movies is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_popular_movies">Popular Movies</string>
+
+    <!-- Stock Hawk is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_stock_hawk">Stock Hawk!</string>
+
+    <!-- XYZ Reader is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_xyz_reader">XYZ Reader</string>
+
+    <!-- Best News is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_best_news">Best News</string>
+
+    <!-- Capstone Design is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_capstone_design">Capstone Design</string>
+
+    <!-- Launch Message by toast [CHAR LIMIT=10] -->
+    <string name="launch_message">Launch APP: <xliff:g example="Popular Movies" id="app_name">%1$s</xliff:g></string>
+</resources>

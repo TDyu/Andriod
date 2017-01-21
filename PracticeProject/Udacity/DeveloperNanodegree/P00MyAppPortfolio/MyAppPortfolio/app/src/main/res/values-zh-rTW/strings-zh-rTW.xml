@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- APP Name [CHAR LIMIT=20] -->
+    <string name="app_name">我的應用作品集</string>
+
+    <!-- Header text of app navigator buttons [CHAR LIMIT=NONE] -->
+    <string name="header_of_app_navigator_buttons">納米學位應用</string>
+
+    <!-- Popular Movies is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_popular_movies">熱門電影</string>
+
+    <!-- Stock Hawk is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_stock_hawk">股票雄鷹</string>
+
+    <!-- XYZ Reader is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_xyz_reader">XYZ閱讀器</string>
+
+    <!-- Best News is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_best_news">最新聞</string>
+
+    <!-- Capstone Design is the text of the app navigator Button [CHAR LIMIT=NONE] -->
+    <string name="app_navigator_button_capstone_design">畢業設計</string>
+
+    <!-- Launch Message by toast [CHAR LIMIT=10] -->
+    <string name="launch_message">啟動應用: <xliff:g example="Popular Movies" id="app_name">%1$s</xliff:g></string>
+</resources>
